@@ -1,7 +1,7 @@
 # Site settings
 title: Sarah e Cristopher
 description:
-cover: assets/images/cover_site.jpg
+cover: assets/images/cover_site_sml.jpg
 logo: assets/images/favicon.png
 favicon: assets/images/favicon.png
 baseurl: "/teste/" # the subpath of your site, e.g. /blog/ or / for root
