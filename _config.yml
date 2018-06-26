@@ -1,9 +1,9 @@
 # Site settings
-title: Sarah e Cris
+title: Sarah e Cristopher
 description:
-cover: assets/images/halloween_sarahcris.jpg
-logo: assets/images/abobora_logo.png
-favicon: assets/images/abobora_logo.png
+cover: assets/images/cover_site.jpg
+logo: assets/images/favicon.png
+favicon: assets/images/favicon.png
 baseurl: "/teste/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://sarahecris.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
