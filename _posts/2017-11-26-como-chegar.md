@@ -15,6 +15,8 @@ Segue o mapa, não tem erro =)
   sandbox="allow-scripts allow-same-origin allow-popups"
   frameborder="0"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBij_TLl1C69MZkj_8WZ0GwZpQ2PI37_co&q=place_id:ChIJh-lJCJXW85QRZyWGKyKpv_w">
+  <amp-img placeholder layout="fill"
+      src="../assets/images/maps_placeholder.png"></amp-img>
 </amp-iframe>
 
 <hr/>
