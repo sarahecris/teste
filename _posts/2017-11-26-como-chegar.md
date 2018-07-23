@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como Chegar
-date: 2018-10-28 00:00:00
+date: 2018-10-28 22:00:00
 tags: festa
 author: web
 ---
@@ -18,7 +18,5 @@ Segue o mapa, não tem erro =)
   <amp-img placeholder layout="fill"
       src="../assets/images/maps_placeholder.png"></amp-img>
 </amp-iframe>
-
-<hr/>
 
 <sub> Se precisarem de um ponto de referência, é em frente à estátua da liberdade... da Havan.</sub>
