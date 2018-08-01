@@ -56,11 +56,15 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .purple-btn {
-  background: #5c0b60;
+  background: #5c0b60 !important;
 }
 
 .white-text {
-  color: #fff;
+  color: #fff !important;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .custom-readmore {
