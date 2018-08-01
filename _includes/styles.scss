@@ -32,11 +32,11 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
     @content;
   }
 }
-
+/*
 @font-face {
   font-family: 'fabulous';
   src: font_url('/assets/images/fabulous.tff');
-}
+}*/
 
 .cover-title {
   background: none;
@@ -51,6 +51,9 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
   font-family: fabulous
 }
 
+.no-max-height {
+  max-height: none !important;
+}
 
 // Only needed for syntax highlighting
 %vertical-rhythm {

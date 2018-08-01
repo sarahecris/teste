@@ -49,6 +49,12 @@
     {% include styles.scss %}
   {% endcapture %}
   {{ include_to_scssify | scssify | replace: "@charset "UTF-8";", "" }}
+  
+  @font-face {
+    font-family: 'fabulous';
+    font-style: normal;
+    src: url(assets/fonts/fabulous.ttf) format('truetype');
+  }
   </style>
 
 
