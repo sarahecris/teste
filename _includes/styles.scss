@@ -68,10 +68,12 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 main {
   display: block;
 }
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png") !important;
+}
 
 body {
   background-color: #fff;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png");
   font-family: $font-sans;
   margin: 0;
   padding: 0;
