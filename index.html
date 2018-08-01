@@ -5,7 +5,7 @@ layout: default
 
   <figure class="ampstart-image-fullpage-hero m0 relative mb4 no-max-height">
     <amp-img width="404" height="750" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
-    <amp-img height="750" alt="Cover" layout="fixed-height" src="{{ site.baseurl }}{{ site.cover }}" media="(min-width: 416px)"></amp-img>
+    <amp-img class="no-max-height" height="750" alt="Cover" layout="fixed-height" src="{{ site.baseurl }}{{ site.cover }}" media="(min-width: 416px)"></amp-img>
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
@@ -21,11 +21,11 @@ layout: default
     </header>
     {% if site.cover %}
     <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Descubra mais...</span></a>
+      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5 custom-readmore" href="#content"><span class="ampstart-readmore-text px1">Descubra mais...</span></a>
     </footer>
     {% else %}
     <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Descubra mais...</span></a>
+      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5 custom-readmore" href="#content"><span class="ampstart-readmore-text px1">Descubra mais...</span></a>
     </footer>
     {% endif %}
     </figcaption>

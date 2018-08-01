@@ -55,6 +55,11 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
   max-height: none !important;
 }
 
+.custom-readmore {
+  color: #fff !important;
+  background: none;
+}
+
 // Only needed for syntax highlighting
 %vertical-rhythm {
   margin-bottom: $rs;
